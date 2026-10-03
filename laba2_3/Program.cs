@@ -201,6 +201,9 @@ try
                 }
                 break;
             }
+        default:
+            Console.WriteLine("Такого треугольника нет");
+            break;
     }
 }
 
