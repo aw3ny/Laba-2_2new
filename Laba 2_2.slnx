@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="cycles/cycles.csproj" Id="1ce30dc9-05b4-4e97-ae62-e7bad026fe3e" />
   <Project Path="Laba 2_2/Laba 2_2.csproj" />
   <Project Path="laba2_3/laba2_3.csproj" Id="0efed02a-048b-4c40-92d9-43b02a9fd2f7" />
+  <Project Path="laba3_1 cycles/laba3_1 cycles.csproj" Id="4bccca82-54c5-467e-9d88-f2c9feaea988" />
 </Solution>
