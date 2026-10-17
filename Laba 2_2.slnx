@@ -1,6 +1,9 @@
 <Solution>
   <Project Path="cycles/cycles.csproj" Id="1ce30dc9-05b4-4e97-ae62-e7bad026fe3e" />
+  <Project Path="lab4_1/lab4_1.csproj" Id="44274413-9f0c-4485-8881-0b6a8637a26b" />
   <Project Path="Laba 2_2/Laba 2_2.csproj" />
   <Project Path="laba2_3/laba2_3.csproj" Id="0efed02a-048b-4c40-92d9-43b02a9fd2f7" />
   <Project Path="laba3_1 cycles/laba3_1 cycles.csproj" Id="4bccca82-54c5-467e-9d88-f2c9feaea988" />
+  <Project Path="Laba3_2/Laba3_2.csproj" Id="a0f4ed47-4ec1-499c-9d70-c2a63abc84e5" />
+  <Project Path="mass/mass.csproj" Id="c74b484b-ba3b-4ae7-bfc9-f9622f6790ad" />
 </Solution>
