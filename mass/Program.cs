@@ -390,3 +390,53 @@ for (int j = 0; j < mas.GetLength(0); j++)
     Console.Write($"{mas[0,j]} ");
 }
 Console.WriteLine();*/
+
+//int[] a = new int[5];
+//Random r = new Random();
+//for(int i = 0; i < a.Length; i++)
+//{
+//    a[i] = r.Next(1, 10);
+//    Console.Write(a[i]+" ");
+//}
+//Console.WriteLine();
+////Array.Clear(a);
+////for(int i = 0;i < a.Length;i++)
+////{
+////    Console.Write(a[i] + " ");
+
+////}
+////Console.WriteLine();
+//int[] b = new int[5];
+//a.CopyTo(b);
+//Array.Clear(a);
+//for (int i = 0; i < a.Length; i++)
+//{
+//    Console.Write(b[i] + " ");
+
+//}
+//Console.WriteLine();
+//Array.Sort(b);
+//for (int i = 0; i < a.Length; i++)
+//{
+//    Console.Write(b[i] + " ");
+
+//}
+//Console.WriteLine();
+
+using System.Text.RegularExpressions;
+
+//string s = "Бык тупогуб, тупогубенький бычок, у быка бега губа была тупа";
+//Regex regex = new Regex(@"туп(\w*)");
+//MatchCollection matches = regex.Matches(s);
+//if(matches.Count > 0)
+//{
+//    foreach (Match match in matches)
+//    Console.WriteLine(match.Value);
+//}
+//else Console.WriteLine("Нет совпадений");
+
+string s = "daria@gmail.ru";
+string pattern= "";
+if (Regex.IsMatch(s,pattern,RegexOptions.IgnoreCase))
+    Console.Write("ОК");
+else Console.WriteLine("No");
