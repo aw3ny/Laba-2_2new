@@ -310,45 +310,45 @@
 //    Console.WriteLine();
 //}
 
-//Random rnd=new Random();
-//int n = rnd.Next(3, 10);
-//int[,] mas = new int[n, n];
-//for (int i = 0; i < mas.GetLength(0); i++)
-//{
-//    for (int j = 0; j < mas.GetLength(1); j++)
-//    {
-//        mas[i, j] = rnd.Next(-3, 4);
-//        Console.Write($"{mas[i,j]} ");
-//    }
-//    Console.WriteLine();
-//}
-//double S = 0;
-//for (int i = 0; i < mas.GetLength(0); i++)
-//{
-//    for (int j = 0; j < mas.GetLength(1); j++)
-//    {
-//        if(i==j) S+= mas[i, j];
-//    }
-//}
-//Console.WriteLine($"{S / mas.GetLength(0):f2}");
-//for (int i = 0; i < mas.GetLength(0); i++)
-//{
-//    for (int j = 0; j < mas.GetLength(1); j++)
-//    {
-//        if (mas[i, j] < 0) mas[i, j] = Math.Abs(mas[i, j]);
-//        Console.Write($"{mas[i,j]} ");
-//    }
-//    Console.WriteLine();
-//}
-//S = 0;
-//for (int i = 0; i < mas.GetLength(0); i++)
-//{
-//    for (int j = 0; j < mas.GetLength(1); j++)
-//    {
-//        if (i == j) S += mas[i, j];
-//    }
-//}
-//Console.WriteLine($"{S/mas.GetLength(0):f2}");
+Random rnd = new Random();
+int n = rnd.Next(3, 10);
+int[,] mas = new int[n, n];
+for (int i = 0; i < mas.GetLength(0); i++)
+{
+    for (int j = 0; j < mas.GetLength(1); j++)
+    {
+        mas[i, j] = rnd.Next(-3, 4);
+        Console.Write($"{mas[i, j]} ");
+    }
+    Console.WriteLine();    
+}
+double S = 0;
+for (int i = 0; i < mas.GetLength(0); i++)
+{
+    for (int j = 0; j < mas.GetLength(1); j++)
+    {
+        if (i == j) S += mas[i, j];
+    }
+}
+Console.WriteLine($"{S / mas.GetLength(0):f2}");
+for (int i = 0; i < mas.GetLength(0); i++)
+{
+    for (int j = 0; j < mas.GetLength(1); j++)
+    {
+        if (mas[i, j] < 0) mas[i, j] = Math.Abs(mas[i, j]);
+        Console.Write($"{mas[i, j]} ");
+    }
+    Console.WriteLine();
+}
+S = 0;
+for (int i = 0; i < mas.GetLength(0); i++)
+{
+    for (int j = 0; j < mas.GetLength(1); j++)
+    {
+        if (i == j) S += mas[i, j];
+    }
+}
+Console.WriteLine($"{S / mas.GetLength(0):f2}");
 
 // базовый
 
@@ -423,8 +423,8 @@ Console.WriteLine();*/
 //}
 //Console.WriteLine();
 
-using System.Text.RegularExpressions;
 
+//using System.Text.RegularExpressions;
 //string s = "Бык тупогуб, тупогубенький бычок, у быка бега губа была тупа";
 //Regex regex = new Regex(@"туп(\w*)");
 //MatchCollection matches = regex.Matches(s);
@@ -435,8 +435,8 @@ using System.Text.RegularExpressions;
 //}
 //else Console.WriteLine("Нет совпадений");
 
-string s = "daria@gmail.ru";
-string pattern= "";
-if (Regex.IsMatch(s,pattern,RegexOptions.IgnoreCase))
-    Console.Write("ОК");
-else Console.WriteLine("No");
+//string s = "daria@gmail.ru";
+//string pattern= "";
+//if (Regex.IsMatch(s,pattern,RegexOptions.IgnoreCase))
+//    Console.Write("ОК");
+//else Console.WriteLine("No");
