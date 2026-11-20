@@ -7,10 +7,12 @@
   <Project Path="lab4_2/lab4_2.csproj" Id="037887d8-6846-403a-859a-d8c449208cfc" />
   <Project Path="lab5_2/lab5_2.csproj" Id="51242d09-516a-4be0-9e0a-60843b3a4cb8" />
   <Project Path="lab6_1/lab6_2.csproj" Id="1694b49e-f803-4139-a3e0-2b754dc73f70" />
+  <Project Path="lab7_1/lab7_1.csproj" Id="3996967a-790e-4a9f-9d80-e98ca9ac3521" />
   <Project Path="Laba 2_2/Laba 2_2.csproj" />
   <Project Path="laba2_3/laba2_3.csproj" Id="0efed02a-048b-4c40-92d9-43b02a9fd2f7" />
   <Project Path="laba3_1 cycles/laba3_1 cycles.csproj" Id="4bccca82-54c5-467e-9d88-f2c9feaea988" />
   <Project Path="Laba3_2/Laba3_2.csproj" Id="a0f4ed47-4ec1-499c-9d70-c2a63abc84e5" />
   <Project Path="mass/mass.csproj" Id="c74b484b-ba3b-4ae7-bfc9-f9622f6790ad" />
+  <Project Path="structures/structures.csproj" Id="c3ae944c-7bc6-4e51-a0b4-5056184ccebe" />
   <Project Path="vizov/vizov.csproj" Id="1d27c70c-6dc5-4ae4-a3dc-34e2f6085b2f" />
 </Solution>
